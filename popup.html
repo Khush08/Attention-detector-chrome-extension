@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>Attention Detector</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div id="leftpane">
+      <h3>Attention Detector</h3>
+      <div class="rc">
+        <video id="webcamVideo" class="video-circle" width="100" height="100" autoplay muted></video>
+      </div>
+      <h3 id="mood">Loading...</h3>
+    </div>
+    <div id="rightpane">
+
+    </div>
+    <audio id="alertAudio" src="alertAudio.mp3" preload="auto"></audio>
+    <script src="face-api.min.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>

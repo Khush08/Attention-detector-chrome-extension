@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Attention Detector",
+    "description": "This extension detects attention of a user in any tab of chrome",
+    "version": "1.0.0",
+    "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png"
+    },
+    "browser_action": {
+      "default_icon": "icon16.png",
+     "default_popup": "popup.html"
+    },
+    "background": {
+      "page": "background.html"
+    },
+    "permissions": [
+      "activeTab"
+     ]
+  }
